@@ -161,3 +161,119 @@ span {
   border: none;
   margin-top: 40px;
 }
+/* Part2 */
+.part2 {
+  background: #f8fdfe;
+  display: flex;
+}
+.p2h {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+  color: #222222;
+  margin-bottom: 68px;
+}
+.part2 img {
+  float: left;
+  margin-right: 28px;
+}
+.part2-casrd {
+  padding: 24px 70px 24px 24px;
+  background-color: #ffffff;
+  margin-bottom: 16px;
+  width: 541px;
+}
+.part2-casrd h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+.part2-casrd p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+
+/* part3 */
+
+.part3 h1,
+p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.part3_wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 35px;
+}
+.part3_wrap .high {
+  margin-right: 30px;
+}
+.part3_wrap .square {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.high {
+  position: relative;
+}
+.p3Card {
+  position: relative;
+}
+.blur {
+  position: absolute;
+  left: 85px;
+  bottom: 112px;
+  width: 200px;
+  height: 88px;
+  z-index: 2;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+.square .blur {
+  position: absolute;
+  left: 85px;
+  bottom: 24px;
+}
+.blur h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  z-index: 9;
+}
+.blur p {
+  font-size: 20px;
+  line-height: 27px;
+  color: #dddddd;
+  z-index: 9;
+}
+
+/* Part 4 */
+.part4 {
+  background: #fff8f7;
+}
+.part4 h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #222222;
+  text-align: center;
+  padding-top: 96px;
+}
+.part4 p {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #555555;
+}
+.part4Wrap {
+  display: flex;
+}
+.part4Wrap .p4Card {
+  width: 370px;
+  height: 280px;
+}
